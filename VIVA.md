@@ -62,3 +62,4 @@ Instead of quitting when the main window's close button is clicked, an event han
 ### Q10: How are native file dialogs used for export?
 **A:**
 `dialog.showSaveDialog(mainWindow, { ... })` opens the macOS file chooser sheet. Once the user picks a location, `fs.writeFileSync` saves the formatted clips as a `.txt` file, demonstrating secure system file-system interactions initiated via IPC.
+

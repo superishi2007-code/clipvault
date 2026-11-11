@@ -16,3 +16,4 @@ All features were manually verified on macOS using Electron.
 | **System** | Global Shortcut | Pressed `Cmd+Shift+V` while another application was active; confirmed ClipVault brought itself to foreground. | ✅ PASSED |
 | **System** | System Tray | Clicked menu bar tray icon; verified context menu (`Show ClipVault`, `Settings`, `Quit`) functions correctly. | ✅ PASSED |
 | **Persistence** | Data Survival | Copied clips, quit app completely, reopened via `npm start`; confirmed all history and preferences survived. | ✅ PASSED |
+

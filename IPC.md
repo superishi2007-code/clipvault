@@ -13,3 +13,4 @@ All communication between the Renderer and Main processes is strictly channeled 
 | `settings:set` | Renderer ➔ Main | `key: string, value: any` | `{ success: boolean }` | Updates a specific setting and persists to JSON. |
 | `window:open-settings` | Renderer ➔ Main | _None_ | `{ success: boolean }` | Opens the secondary Settings `BrowserWindow`. |
 | `clip:new` | Main ➔ Renderer | `newClip: Clip` | _None_ (Event push) | Pushes a notification event to the renderer when the background watcher captures a new snippet. |
+

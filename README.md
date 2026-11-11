@@ -37,3 +37,4 @@ npm start
 ```
 
 > **Note on macOS Permissions**: When running for the first time, macOS may request notification or accessibility permissions for clipboard monitoring and global keyboard shortcuts.
+
